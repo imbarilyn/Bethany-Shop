@@ -1,0 +1,131 @@
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+*{
+    -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;
+}
+
+.small-12 {
+    width: 100%;
+}
+.small-6 {
+    width:50%
+}
+
+body {
+    font-family: 'lato' sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+header {
+    background-color: #9b87b8;
+}
+header img {
+    height: 85px;
+    float: left;
+    padding-right: .5rem;
+}
+
+header h1, header h2 {
+    font-style: italic;
+    color: #fff;
+    font-weight: 300;
+    margin: 0;
+
+}
+.limited {
+    max-width: 1140px;
+    margin: auto;
+
+}
+
+header h1 {
+    padding: .5rem 0 0 0;
+    font-size: 1.95rem;
+}
+
+header h2 {
+    padding: .2rem 0 0 0;
+    
+    
+}
+nav {
+    background-color: #23cfa7;
+}
+
+#hamburgerBtn {
+    border: none;
+    font-size: 2.4rem;
+    background: none;
+    color: #fff;
+    padding: 0 30px 0 2vw;
+
+}
+
+ul li {
+    list-style: none;
+}
+
+ ul {
+     
+     margin: 0;
+     padding: 0;
+ }
+
+ li a {
+    text-decoration: none;
+    display: block;
+    padding: .8rem 0;
+    color: #eee;
+    text-align: center;
+ }
+
+ nav ul.open {
+     display: block;
+ }
+
+ nav ul {
+     display: none;
+ }
+main img {
+    width: 100%;
+    height: auto;
+}
+
+main h1, main h3 {
+    color: orange;
+    font-style: italic;
+    margin: .5rem 0 .1rem 0;
+}
+main h1 {
+    font-size: 2rem;
+}
+
+main h3 {
+    font-size: 1.2rem;
+}
+main p {
+    font-size: 1.2rem;
+    margin: 0 0 .3rem 0;
+}
+
+
+
+
+footer {
+    font-size: 1.2rem;
+    background-color: #9b87b8;
+}
+
+.column {
+    float: left;
+    padding: 0 2vw 0 2vw;
+    }
+
+.row {
+    clear: both;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
